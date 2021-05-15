@@ -27,9 +27,10 @@ If you use this dataset in your research, please cite this paper.
 
 ```
 @inproceedings{AI-TOD_2020_ICPR,
-    title = {Tiny Object Detection in Aerial Images},,
-    author = {Jinwang Wang, Wen Yang, Haowen Guo, Ruixiang Zhang and Gui-Song Xia},
-    booktitle = ICPR,
-    year={2020}
+    title={Tiny Object Detection in Aerial Images},
+    author={Wang, Jinwang and Yang, Wen and Guo, Haowen and Zhang, Ruixiang and Xia, Gui-Song},
+    booktitle=ICPR,
+    pages={3791--3798},
+    year={2021},
 }
 ```
