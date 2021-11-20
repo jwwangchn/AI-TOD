@@ -8,22 +8,21 @@ AI-TOD is a dataset for tiny object detection in aerial images.
 
 ## Description
 
-AI-TOD comes with 700,621 object instances for eight categories across 28,036 aerial
-images. Compared to existing object detection datasets in aerial images, the mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than others.
+AI-TOD comes with 700,621 object instances for eight categories across 28,036 aerial images. Compared to existing object detection datasets in aerial images, the mean size of objects in AI-TOD is about 12.8 pixels, which is much smaller than others.
 
 ![](demo/size_ratios.png)
 
 ## Download
 
-You can download the dataset on [Google Driver](https://drive.google.com/drive/folders/1mokzFtLCjyqalSEajYTUmyzXvOHAa4WX?usp=sharing).
+You can download the dataset on [Google Drive](https://drive.google.com/drive/folders/1mokzFtLCjyqalSEajYTUmyzXvOHAa4WX?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1r2C_fBwQL4q2NRmDM3-RUw) (Password: 0ire).
 
 ## Evaluation
-Training and Validation sets are publicly available. If you want to report the accuracies on test set, please send the results on test set to jwwangchn@gmail.com.
+Training, Validation and Testing sets are both publicly available now. We report the COCO style performance in the original paper, you can use the [cocoapi-aitod](https://github.com/jwwangchn/cocoapi-aitod) to evaluate the model performance.
 
 
 ## Citation
 
-If you use this dataset in your research, please cite this paper.
+If you use this dataset in your research, please cite these papers.
 
 ```
 @inproceedings{AI-TOD_2020_ICPR,
@@ -32,5 +31,14 @@ If you use this dataset in your research, please cite this paper.
     booktitle=ICPR,
     pages={3791--3798},
     year={2021},
+}
+```
+
+```
+@article{NWD_2021_arXiv,
+  title={A Normalized Gaussian Wasserstein Distance for Tiny Object Detection},
+  author={Wang, Jinwang and Xu, Chang and Yang, Wen and Yu, Lei},
+  journal={arXiv preprint arXiv:2110.13389},
+  year={2021}
 }
 ```
