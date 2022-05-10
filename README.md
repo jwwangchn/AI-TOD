@@ -48,3 +48,6 @@ If you use this dataset in your research, please cite these papers.
 ## Reference
 [xView Dataset](http://xviewdataset.org/)
 
+## License
+
+The content of this project itself is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
