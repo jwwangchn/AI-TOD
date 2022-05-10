@@ -50,4 +50,4 @@ If you use this dataset in your research, please cite these papers.
 
 ## License
 
-The AI-TOD dataset is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). Thus AI-TOD dataset are freely available for academic purpose or individual reserach, but restricted for commercial use. Besides, the underlying codes are licensed under the MIT license.
+The AI-TOD dataset is licensed under the Attribution-NonCommercial-ShareAlike 4.0 International ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). Thus AI-TOD dataset are freely available for academic purpose or individual reserach, but restricted for commercial use. Besides, the underlying codes are licensed under the MIT license.
