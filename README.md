@@ -46,5 +46,5 @@ If you use this dataset in your research, please cite these papers.
 }
 ```
 ## Reference
-[[xView Dataset]](http://xviewdataset.org/)
+[xView Dataset](http://xviewdataset.org/)
 
