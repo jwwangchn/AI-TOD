@@ -2,7 +2,9 @@
 
 AI-TOD is a dataset for tiny object detection in aerial images.
 
-[[Paper]](https://drive.google.com/file/d/1IiTp7gilwDCGr8QR_H9Covz8aVK7LXiI/view?usp=sharing) [[Dataset]](https://drive.google.com/drive/folders/1mokzFtLCjyqalSEajYTUmyzXvOHAa4WX?usp=sharing)
+[[Paper]](https://drive.google.com/file/d/1IiTp7gilwDCGr8QR_H9Covz8aVK7LXiI/view?usp=sharing)
+
+Dataset is comming soon.
 
 ![](demo/samples.png)
 
@@ -14,7 +16,8 @@ AI-TOD comes with 700,621 object instances for eight categories across 28,036 ae
 
 ## Download
 
-You can download the dataset on [Google Drive](https://drive.google.com/drive/folders/1mokzFtLCjyqalSEajYTUmyzXvOHAa4WX?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1r2C_fBwQL4q2NRmDM3-RUw) (Password: 0ire).
+Dataset is comming soon.
+<!-- You can download the dataset on [Google Drive](https://drive.google.com/drive/folders/1mokzFtLCjyqalSEajYTUmyzXvOHAa4WX?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1r2C_fBwQL4q2NRmDM3-RUw) (Password: 0ire). -->
 
 ## Evaluation
 Training, Validation and Testing sets are both publicly available now. We report the COCO style performance in the original paper, you can use the [cocoapi-aitod](https://github.com/jwwangchn/cocoapi-aitod) to evaluate the model performance.
@@ -42,3 +45,6 @@ If you use this dataset in your research, please cite these papers.
   year={2021}
 }
 ```
+## Reference
+[[xView Dataset]](http://xviewdataset.org/)
+
