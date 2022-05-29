@@ -1,0 +1,62 @@
+Fixed-wing Aircraft:airplane
+Small Aircraft:airplane
+Cargo Plane:airplane
+Helicopter:None
+Passenger Vehicle:vehicle
+Small Car:vehicle
+Bus:vehicle
+Pickup Truck:vehicle
+Utility Truck:vehicle
+Truck:vehicle
+Cargo Truck:vehicle
+Truck w/Box:vehicle
+Truck Tractor:vehicle
+Trailer:vehicle
+Truck w/Flatbed:vehicle
+Truck w/Liquid:vehicle
+Crane Truck:vehicle
+Railway Vehicle:vehicle
+Passenger Car:vehicle
+Cargo Car:vehicle
+Flat Car:vehicle
+Tank car:vehicle
+Locomotive:vehicle
+Maritime Vessel:ship
+Motorboat:ship
+Sailboat:ship
+Tugboat:ship
+Barge:ship
+Fishing Vessel:ship
+Ferry:ship
+Yacht:ship
+Container Ship:ship
+Oil Tanker:ship
+Engineering Vehicle:vehicle
+Tower crane:None
+Container Crane:None
+Reach Stacker:None
+Straddle Carrier:None
+Mobile Crane:vehicle
+Dump Truck:vehicle
+Haul Truck:vehicle
+Scraper/Tractor:vehicle
+Front loader/Bulldozer:vehicle
+Excavator:vehicle
+Cement Mixer:vehicle
+Ground Grader:vehicle
+Hut/Tent:None
+Shed:None
+Building:None
+Aircraft Hangar:None
+Damaged Building:None
+Facility:None
+Construction Site:None
+Vehicle Lot:None
+Helipad:None
+Storage Tank:storage-tank
+Shipping container lot:None
+Shipping Container:None
+Pylon:None
+Tower:None
+other:None
+other:None
