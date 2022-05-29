@@ -26,7 +26,7 @@ You need to download the following two parts (xView training set, AI-TOD without
 **Step 1:** Download the xView training set, AI-TOD without xview, and clone the aitodtoolkit.
 
 ```
-git clone
+git clone https://github.com/jwwangchn/AI-TOD.git
 ```
 
 **Step 2:** Organize the downloaded files in the following way.
