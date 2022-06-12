@@ -17,7 +17,7 @@ AI-TOD comes with 700,621 object instances for eight categories across 28,036 ae
 
 You need to download the following two parts (xView training set, AI-TOD without xview) and use our end-to-end synthesis tool to generate the complete AI-TOD dataset.
 * xView training set. [[Website]](http://xviewdataset.org/#dataset)
-* AI-TOD_wo_xview. [[BaiduDrive:w2dy]](https://pan.baidu.com/s/1AlhHIxpvkJ1-2ql9JdWqKg) [OneDrive](https://1drv.ms/u/s!Ao5UiAkIbGJ7xHCGhQe2tsU1Ut5i?e=SrUdYp)
+* AI-TOD_wo_xview. [[BaiduDrive(Password:w2dy)]](https://pan.baidu.com/s/1AlhHIxpvkJ1-2ql9JdWqKg) [[OneDrive]](https://1drv.ms/u/s!Ao5UiAkIbGJ7xHCGhQe2tsU1Ut5i?e=SrUdYp)
 * E2E aitodtoolkit. [[Folder]](aitodtoolkit)
 
 <!-- You can download the dataset on [Google Drive](https://drive.google.com/drive/folders/1mokzFtLCjyqalSEajYTUmyzXvOHAa4WX?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1r2C_fBwQL4q2NRmDM3-RUw) (Password: 0ire). -->
@@ -33,7 +33,7 @@ git clone https://github.com/jwwangchn/AI-TOD.git
 
 ```
 ├─aitod
-│  ├─annotations ## put the downloaded annotations of AI-TOD_wo_xview (.json)**
+│  ├─annotations ## put the downloaded annotations of AI-TOD_wo_xview (.json)
 │  └─images ## unzip the downloaded AI-TOD_wo_xview image sets, put them (.png) in the corresponding folder
 │      ├─test ## directly put the images in it without extra folder
 │      ├─train 
