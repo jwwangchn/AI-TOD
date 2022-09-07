@@ -192,7 +192,6 @@ if __name__ == '__main__':
     subimage_size = 800
     gap = 200
 
-
     image_path = 'xview/ori/train_images'
 
     image_save_path = 'xview/split/images'
@@ -300,7 +299,7 @@ if __name__ == '__main__':
 
     path = inspect.getfile(inspect.currentframe())
     abspath = os.path.abspath(path) # get the abs path of current file
-    pre_abspath = abspath.split('generate_aitod.py')
+    pre_abspath = abspath.split('generate_aitod_imgs.py')
 
     for set in sets:
         dst_image_path = 'xview/xview_aitod_sets/{}/images'.format(set)
@@ -331,122 +330,6 @@ if __name__ == '__main__':
             shutil.copy(abs_src_label_path, final_dst_label_path)
                   
 
-    
-    #########################
-    # basic dataset information
-    info = {"year" : 2019,
-                "version" : "1.0",
-                "description" : "XVIEW-COCO",
-                "contributor" : "Jinwang Wang",
-                "url" : "jwwangchn.cn",
-                "date_created" : "2019"
-            }
-    
-    licenses = [{"id": 1,
-                    "name": "Attribution-NonCommercial",
-                    "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/"
-                }]
-
-    # dataset's information
-    image_format3='.png'
-    anno_format='.txt'
-
-    original_class = { 'airplane':                     1, 
-                        'bridge':                       2,
-                        'storage-tank':                 3, 
-                        'ship':                         4, 
-                        'swimming-pool':                5, 
-                        'vehicle':                      6, 
-                        'person':                       7, 
-                        'wind-mill':                    8}
-
-    converted_class = [{'supercategory': 'none', 'id': 1,  'name': 'airplane',                 },
-                        {'supercategory': 'none', 'id': 2,  'name': 'bridge',                   },
-                        {'supercategory': 'none', 'id': 3,  'name': 'storage-tank',             },
-                        {'supercategory': 'none', 'id': 4,  'name': 'ship',                     },
-                        {'supercategory': 'none', 'id': 5,  'name': 'swimming-pool',            },
-                        {'supercategory': 'none', 'id': 6,  'name': 'vehicle',                  },
-                        {'supercategory': 'none', 'id': 7,  'name': 'person',                  },
-                        {'supercategory': 'none', 'id': 8,  'name': 'wind-mill',               }]
-
-    core_dataset_name = 'xview'
-    #imagesets = ['train_filtered']
-    release_version = 'v1'
-    #rate = '1.0'
-    groundtruth = True
-    keypoint = False
-    
-    just_keep_small = False
-    generate_small_dataset = False
-    small_size = 16 * 16
-    small_object_rate = 0.5
-    large_object_size = 64 * 64
-
-    for set in sets:
-
-        anno_name = [core_dataset_name, set]
-        
-        anno_name.append('small')
-
-
-
-        if keypoint:
-            for idx in range(len(converted_class)):
-                converted_class[idx]["keypoints"] = ['top', 'right', 'bottom', 'left']
-                converted_class[idx]["skeleton"] = [[1,2], [2,3], [3,4], [4,1]]
-            anno_name.append('keypoint')
-        
-        if groundtruth == False:
-            anno_name.append('no_ground_truth')
-
-
-        imgpath = 'xview/xview_aitod_sets/{}/images'.format(set)
-        annopath = 'xview/xview_aitod_sets/{}/labels'.format(set)
-        save_path = 'xview/annotations'
-        if not os.path.exists(save_path):
-            os.makedirs(save_path)
-
-        xview = XVIEW2COCO(imgpath=imgpath,
-                        annopath=annopath,
-                        image_format=image_format3,
-                        anno_format=anno_format,
-                        data_categories=converted_class,
-                        data_info=info,
-                        data_licenses=licenses,
-                        data_type="instances",
-                        groundtruth=groundtruth,
-                        small_object_area=0)
-
-        images, annotations = xview.get_image_annotation_pairs()
-
-        json_data = {"info" : xview.info,
-                    "images" : images,
-                    "licenses" : xview.licenses,
-                    "type" : xview.type,
-                    "annotations" : annotations,
-                    "categories" : xview.categories}
-
-        #anno_name.insert(1, 'train')
-        with open(os.path.join(save_path, "_".join(anno_name) + ".json"), "w") as jsonfile:
-            json.dump(json_data, jsonfile, sort_keys=True, indent=4)
-    
-    sets = ['val','train','trainval','test']
-
-    path = inspect.getfile(inspect.currentframe())
-    abspath = os.path.abspath(path) # get the abs path of current file
-    pre_abspath = abspath.split('generate_aitod.py')
-
-    ###############################
-    # merge the result of aitod_wo_xview and xview
-    for set in sets:
-
-        src_ann_file = 'aitod/annotations/aitod_wo_xview_{}.json'.format(set)
-        ext_ann_file = 'xview/annotations/xview_{}_small.json'.format(set)
-        dst_ann_file = 'aitod/annotations/aitod_{}.json'.format(set)
-
-        coco_merge(src_ann_file, ext_ann_file, dst_ann_file)
-
-
     # move xview-aitod files into 
     for set in sets:
 
@@ -459,4 +342,10 @@ if __name__ == '__main__':
             shutil.copy(abs_src_img, abs_dst_img)
 
     # delete irrelevant temp files 
-    # to do
+    
+
+
+
+
+
+
