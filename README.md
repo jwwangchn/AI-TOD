@@ -69,7 +69,7 @@ cd aitodtoolkit
 pip install -r requirements.txt
 ```
 
-**Step 4:** Run the E2E aitodtoolkit and get AI-TOD, it might take around an hour, then the full image sets and annotations of AI-TOD can be found in the **aitod** folder. And you can delete other files in other folders to avoid taking up too much space.
+**Step 4:** Run the E2E aitodtoolkit and get AI-TOD, it might take around an hour, then the full image sets of AI-TOD can be found in the **aitod** folder. And you can delete other files in other folders to avoid taking up too much space.
 
 ```
 python generate_aitod_imgs.py
