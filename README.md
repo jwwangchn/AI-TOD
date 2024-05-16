@@ -45,7 +45,7 @@ git clone https://github.com/jwwangchn/AI-TOD.git
 │  ├─ori
 │  │   └─train_images ## unzip the downloaded xView training set images, put them (.tif) here
 │  └─xView_train.geojson ## the annotation file of xView training set
-└─generate_aitod.py ## end-to-end tool
+└─generate_aitod_imgs.py ## end-to-end tool
 ```
 
 **Step 3:** Install required packages.
