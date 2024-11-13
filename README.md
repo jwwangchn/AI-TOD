@@ -17,7 +17,7 @@ AI-TOD comes with 700,621 object instances for eight categories across 28,036 ae
 
 You need to download the following two parts (Part1: xView training set, Part2: part of AI-TOD) and use our end-to-end synthesis tool to generate the complete AI-TOD dataset. (Note the we have released the **complete annotations** of AI-TOD, you only need to **generate images**)
 * xView training set. [[Website]](http://xviewdataset.org/#dataset) 
-* Part of AI-TOD. [[Google Drive]]([https://1drv.ms/u/s!Ao5UiAkIbGJ7xHCGhQe2tsU1Ut5i?e=SrUdYp](https://drive.google.com/drive/folders/1uNY_rcOO5LrWibXRY6l2dvqSbK6xikJp?usp=sharing))
+* Part of AI-TOD. [[GoogleDrive]](https://drive.google.com/drive/folders/1uNY_rcOO5LrWibXRY6l2dvqSbK6xikJp?usp=sharing)
 * E2E aitodtoolkit. [[Folder]](aitodtoolkit)
 
 <!-- * AI-TOD_wo_xview. [[BaiduDrive(Password:w2dy)]](https://pan.baidu.com/s/1AlhHIxpvkJ1-2ql9JdWqKg) [[OneDrive]](https://1drv.ms/u/s!Ao5UiAkIbGJ7xHCGhQe2tsU1Ut5i?e=SrUdYp) -->
